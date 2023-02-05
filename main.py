@@ -55,7 +55,7 @@ def send_welcome(message):
                 f.write(response.content)
                 f.close()
     else:
-        bot.reply_to(message, "Хуй тебе")
+        bot.reply_to(message, "No access")
 
 
 bot.infinity_polling()
